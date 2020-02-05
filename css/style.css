@@ -2,20 +2,76 @@ body {
   background-color: #333;
   font-family: sans-serif;
   font-size: 10px;
+  box-sizing: border-box;
 }
 
 .container {
+  box-sizing: border-box;
   margin: 0 auto;
   width: 420px;
 }
+/* whole screen*/
 
 nav {
+  box-sizing: border-box;
   margin: 0 auto;
-  padding: 10px 0 15px 15px;
+  padding: 0 10px 10px 0;
   position: fixed;
-  width: 420px;
+  width: 400px;
+  background-color:black;
 }
+/* top box section */
 
 .restaurant-list {
-  padding-top: 50px;
+  box-sizing:border-box;
+  padding-top:50px;
+  width: 25%;
+}
+/*whole box*/
+h1 {
+  box-sizing: border-box;
+  border: 5px;
+  margin: 0;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+h3 {
+  box-sizing: border-box;
+  border: 5px;
+  margin: 0;
+}
+
+.content{
+  display:inline-block;
+  padding: 35px 0 23px 20px;
+}
+
+.location {
+  background-color:#d3d3d3;
+  width: 400px;
+  border-bottom: 1px solid gray
+
+  }
+
+  .location:hover {
+    background-color:#a9a9a9;
+}
+
+.arrow {
+  color:black;
+  padding-right: 25px;
+  padding-top: 35px;
+  float: right;
+}
+
+.arrow-left {
+  box-sizing: border-box;
+  width: 400px;
+  height: 50px;
+  padding-left: 20px;
+}
+
+.fa.fa-chevron-left.fa-inverse.fa-2x{
+  padding-top:20px;
 }
